@@ -1,0 +1,125 @@
+.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10{
+    text-align: justify;
+    width: 75%;
+    border-radius: 2px;
+    padding: 5px;}
+    body {background-color: lightseagreen ;}
+    table{
+        width: 100%;
+        border: 1px ;
+        border-collapse: collapse;
+       margin-right: 150px;
+       margin-top: 50px;
+       border: 1px solid black;
+    }
+    td {
+        text-align: left;
+        vertical-align: bottom;
+        height: 50px;
+        padding: 15px;
+        border-bottom: 1px solid #ddd;
+        width: 50%;
+      }
+      tr:nth-child(even) {background-color: #f2f2f2;}
+      p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 50px;
+        margin-left: 8px;
+        width: 100%;
+      }
+      div {
+        width: 300px;
+        margin: 25px;
+        
+      }
+      tr{
+        height: 100px;
+      } 
+      #footer
+{
+  background-color: black;
+  color: white;
+  min-height: 50px;
+  border: 1px solid transparent;
+  padding: 0px;
+}
+#inner-footer
+{
+  width: 80%;
+  margin: auto;
+  padding: 15px;
+  font-size: 15px; 
+  text-align: center;
+}
+#sl
+{
+  float:right; 
+  padding-top: 20px;
+  padding: 15px 15px; 
+  background-color: black;  
+}
+#sl1{
+  background-color: black;
+  border-color: #000;
+}
+#back{background-color: peachpuff ;}
+#items #img{
+  display: block;
+  border-radius: 5px;
+}
+#items:hover{
+    transform:scale(1.1);
+    z-index: 2;
+}
+h2{
+  text-align: left;
+}
+/* #items:hover
+{
+    box-shadow: 5px 5px 5px darkgrey;
+} */
+/* #logo
+{
+  float: left;
+  padding: 10px;
+  padding-top: 20px;
+  font-size: 20px; 
+  font-weight: bold;
+} */
+#header
+{
+    background-color: black;
+    color: white;
+    min-height: 75px;
+    border: 1px solid transparent;
+    /* padding: 0px; */
+    padding-top: 0px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+#inner-header
+{
+    width: 80%;
+    margin: auto;
+}
+#logo
+{
+    /* float: left; */
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 20px; 
+    font-weight: bold;
+}
+#sl
+{
+    float:right; 
+    padding-top: 20px;
+    padding: 15px 15px;  
+    background-color: black;  
+}
+#sl1
+{
+    background-color: black;
+    border-color: #000;
+}

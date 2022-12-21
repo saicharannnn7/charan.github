@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #cdcac6;
+}
+.topcontainer{
+  display: flex;
+  padding-right: 10%;
+}
+  .container{
+    /* background-color: darkgrey; */
+    width: 100%;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+  }
+  .hosp{
+    background-color: white;
+    padding:10px;
+    /* margin-top: 10px; */
+    /* position: absolute; */
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 95%;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  .hosp:hover{
+    box-shadow: 10px 10px 20px #817878;
+  }
+  .logo{
+    display: flex;
+    justify-content: space-between;
+  }
+  .name{
+    display: flex;
+    flex-direction: column;
+    padding:15px;
+  }
+  .name a{
+    text-decoration: none;
+    color: green;
+
+  }
+  .name a:hover{
+    text-decoration: underline;
+  }
+  .logo img{
+    width: 150px;
+    height: 150px;
+  }
+  .name input{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border:none;
+    background-color:#9dcf9d;
+    color: green;
+  }
+  .btninfo{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+  }
+  .btninfo div{
+    flex:48%;
+  }
+  .establish{
+    border: 1px solid green;
+    display: flex;
+    border-radius: 10px;
+    width: 100%;
+    margin: 2px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    padding:2px;
+
+  }
+  .establish img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  .information{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+  }
+  .info{
+    margin:25px;
+  }
+  .btn{
+    display: flex;
+    justify-content: space-between;
+}
+.btn input{
+  width: 100px;
+  height: 40px;
+}
+.view{
+  border-color: blue;
+  background-color: white;
+
+}
+.enq{
+  background-color: green;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.specialization{
+  background-color: lightcyan;
+  border: 2px solid green;
+  width: 20%;
+  padding: 5px;
+  border-radius: 10px;
+  position:fixed;
+  margin-left: 80%;
+  margin-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+.specialization h1{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+.sidebtn{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top:10px;
+}
+.specialization input{
+  border: 1px solid blue;
+  background-color: skyblue;
+  border-radius: 20px;
+  height: 30px;
+  margin:7px;
+  padding: 5px;
+  min-width: 80px;
+
+
+}
+
+#header
+{
+    background-color: black;
+    color: white;
+    min-height: 75px;
+    border: 1px solid transparent;
+    padding: 0px;
+}
+#inner-header
+{
+    width: 80%;
+    margin: auto;
+}
+#logo
+{
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#sl
+{
+    float:right;
+    padding: 15px 15px;
+}
+#sl1
+{
+    background-color: black;
+    border-color: #000;
+}
+#bt
+{
+    color :white;
+    font-size:16px;
+    font-weight: bold;
+    background-color: black;
+}
+#footer
+{
+    background-color: black;
+    color: white;
+    min-height: 5px;
+    border: 1px solid transparent;
+    padding: 0px;
+}
+#inner-footer
+{
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+}
+
